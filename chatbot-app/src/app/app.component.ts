@@ -18,5 +18,4 @@ export class AppComponent {
       s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
       var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
       (window as any).kommunicate = m; m._globals = kommunicateSettings;
-  })(document, (window as any).kommunicate || {});
-}}
+  })(document, (window as any).kommunicate || {});}}
